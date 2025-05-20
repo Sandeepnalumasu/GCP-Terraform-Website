@@ -7,21 +7,24 @@ This project is a simple personal static website deployed to Google Cloud Storag
 
 Project Structure
 
-gcp-terraform-website/        
-|---index.html               # main website content
-|---styles.css               # website styling
-|---script.js                # Javascript functionality
-|---terraform/
-| |---main.tf                terraform resources
-| |---variables.tf           input variables for terraform
-| |---terraform.tfvars       actual values for those variables
-| |---outputs.tf             terraform outputs
-|---screenshots/
-| |---GCP                    images of Google Cloud Console
-| |---terraform              images of terraform commands
-| |---Output                 images of personal website 
-|---README.md
-|---terraform-key.json       service account key(NOT pushed to GitHub)
+```
+gcp-terraform-website/
+├── index.html               # main website content
+├── styles.css               # website styling
+├── script.js                # JavaScript functionality
+├── terraform/
+│   ├── main.tf              # Terraform resources
+│   ├── variables.tf         # Input variables for Terraform
+│   ├── terraform.tfvars     # Actual values for those variables
+│   ├── outputs.tf           # Terraform outputs
+├── screenshots/
+│   ├── GCP                  # Images of Google Cloud Console
+│   ├── terraform            # Images of Terraform commands
+│   ├── Output               # Images of personal website
+├── README.md
+├── terraform-key.json       # Service account key (NOT pushed to GitHub)
+```
+
 
 Process
 
