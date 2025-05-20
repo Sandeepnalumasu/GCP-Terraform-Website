@@ -1,4 +1,4 @@
-# gcp-terraform-website
+# GCP-Terraform-Website
 
 My personal website with Terraform and Google Cloud Platform.
 
